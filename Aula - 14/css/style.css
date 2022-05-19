@@ -23,6 +23,11 @@ a:hover
     font-size: 1.5rem;
 }
 
+#logo img
+{
+    width: 50px;
+}
+
 #header
 {
     box-sizing: border-box;
@@ -31,7 +36,7 @@ a:hover
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background:linear-gradient(45deg, #dd4814, #77216f, #5e2750, #2c001e, #aea79f, #333333);
 }
 
 #menu
@@ -50,6 +55,5 @@ a:hover
 {
     position: relative;
     z-index: 10;
-    padding-top: 80px;
-    
+
 }

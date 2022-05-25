@@ -106,6 +106,7 @@ a:hover
     #hamburger
     {
         border-top: 2px solid;
+        color: white;
         width: 25px;
     }
 
@@ -117,6 +118,7 @@ a:hover
         width: 25px;
         height: 2px;
         background: currentColor;
+        margin-top: 5px;
         transition: 0.3s;
         position: relative;
     }

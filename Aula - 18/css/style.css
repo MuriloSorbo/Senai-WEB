@@ -8,9 +8,9 @@ body, ul
 
 a
 {
-    color: white;
     text-decoration: none;
     font-family: sans-serif;
+    color: white;
 }
 
 a:hover
@@ -77,12 +77,17 @@ a:hover
         overflow-y: hidden;
     }
 
+    #menu a
+    {
+        color: black;
+    }
+
     #menu li
     {
         padding-top: 30px;
         padding-bottom: 0;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05)
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
     }
 
     #nav.active #menu
@@ -119,7 +124,7 @@ a:hover
         height: 2px;
         background: currentColor;
         margin-top: 5px;
-        transition: 0.3s;
+        transition: 0.5s;
         position: relative;
     }
 

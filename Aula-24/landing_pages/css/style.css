@@ -118,8 +118,10 @@ h1
     font-size: 80px;
 }
 
-.linha-amarela
+.linha-amarelo
 {
+    width: 100%;
+    height: 1px;
     border: solid 1px #FFAF00;
 }
 
@@ -272,7 +274,8 @@ h1
 {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 840px;
+    height: 200px;
     padding-top: 20%;
 }
 
@@ -284,26 +287,15 @@ h1
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .container-video
 {
     position: relative;
     overflow: hidden;
-    width: 100%;
-}
-
-.video-responsivo
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
+    width: 840px;
+    height: 400px;
+    margin-top: 10px;
 }
 
 footer

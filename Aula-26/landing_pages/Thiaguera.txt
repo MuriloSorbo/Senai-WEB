@@ -1,0 +1,27 @@
+--- HTML
+<section class="whatsapp">
+        <div class="container-grid logo-whats">
+            
+            <a href="">
+                <img src="img/whats.png" alt="">
+            </a>
+
+        </div>
+</section>
+
+
+
+
+--- CSS
+.whatsapp
+{
+    position: fixed;
+    z-index: 2;
+    top: 275px;
+    right: 25px;
+}
+
+.whatsapp img
+{
+    width: 45px;
+}
